@@ -33,7 +33,7 @@ public class Pemilihan {
             System.out.println("===============================================");
             System.out.println("===============================================");
         } else {
-            double nilaiAkhir1 = (nilaiTgs1 * 0.1) + (nilaiKuis * 0.2) + (nilaiUts1 * 0.3) + (nilaiUas1 * 0.4);
+            double nilaiAkhir1 = (nilaiTgs1 * 0.2) + (nilaiKuis * 0.2) + (nilaiUts1 * 0.3) + (nilaiUas1 * 0.3);
             if (80 < nilaiAkhir1 && nilaiAkhir1 <= 100) {
                 nilaiHuruf1 = "A";
             } else if (73 < nilaiAkhir1 && nilaiAkhir1 <= 80) {
