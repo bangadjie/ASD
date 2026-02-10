@@ -28,7 +28,7 @@ public class Fungsi {
                         (stock[i][3] * H_Mawar);
 
             String status = (total > 1500000) ? "Sangat Baik" : "Perlu Evaluasi";
-            System.out.printf("RoyalGarden %d : Rp %,d | Status: %s\n", (i + 1), total, status);
+            System.out.println("RoyalGarden " + (i + 1) + " " + total + "| Status" + status );
         }
     }
 }
