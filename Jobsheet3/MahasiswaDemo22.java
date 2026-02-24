@@ -23,6 +23,7 @@ public class MahasiswaDemo22 {
             System.out.println("-----------------------------");
 
         }
+        
         for(int i = 0; i < 3; i++) {
             System.out.println("Data Mahasiswa ke-" + (i + 1));
             System.out.println("NIM       : "+ arrayOfMahasiswa[i].nim);
@@ -31,5 +32,7 @@ public class MahasiswaDemo22 {
             System.out.println("IPK       : "+ arrayOfMahasiswa[i].ipk);
             System.out.println("------------------------------");
         }
+        
     }
+    
 }
