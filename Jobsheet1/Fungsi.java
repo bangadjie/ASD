@@ -1,21 +1,16 @@
 package Jobsheet1;
-
 public class Fungsi {
-    
     static int H_Aglonema = 75000;
     static int H_Keladi = 50000;
     static int H_Alocasia = 60000;
     static int H_Mawar = 10000;
-
     public static void main(String[] args) {
-        
         int[][] stockBunga = {
             {10, 5, 15, 7},
             {6, 11, 9, 12},
             {2, 10, 10, 5},
             {5, 7, 12, 9}
         };
-
         System.out.println("Laporan Cabang Royal Garden");
         Pendapatan(stockBunga);
     }

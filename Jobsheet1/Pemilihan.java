@@ -1,21 +1,13 @@
 package Jobsheet1;
-
 import java.util.Scanner;
 
 public class Pemilihan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // System.out.println("===== INPUT DATA MAHASISWA =====");
-        // System.out.print("Nama : ");
-        // String Nama = sc.nextLine();
-        // System.out.print("NIM : ");
-        // long NIM = sc.nextLong();
-
         String nilaiHuruf1 = "";
         String Status1 = "";
 
         System.out.println("=== Masukkan Nilai Mahasiswa ===");
-        // Whele
         System.out.print(" Masukkan nilai Tugas : ");
         int nilaiTgs1 = sc.nextInt();
         System.out.print(" Masukkan nilai Kuis : ");
@@ -55,11 +47,6 @@ public class Pemilihan {
             } else {
                 Status1 = "Selamat Anda Lulus";
             }
-
-            // System.out.println("========== HASIL PENILAIAN AKADEMIK ==========");
-            // System.out.println("Nama : " + Nama);
-            // System.out.println("NIM : " + NIM);
-
             System.out.println("===============================================");
             System.out.println("===============================================");
             System.out.println("Nilai Akhir : " + nilaiAkhir1);

@@ -64,7 +64,6 @@ public class Array {
         System.out.println("================================================================");
         // System.out.println("Total SKS   : " + totalSKS);
         System.out.println("IP : " + ipSemester);
-        
         sc.close();
     }
 

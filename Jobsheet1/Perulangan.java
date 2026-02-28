@@ -26,7 +26,6 @@ public class Perulangan {
                 System.out.print("* ");
             }
         }
-        
         System.out.println("\n===============================");
         sc.close(); 
     }
