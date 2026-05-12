@@ -96,10 +96,22 @@ public class DoubleLinkedList22 {
             System.out.println("Linked List kosong.");
             return;
         }
-        Nodee22 current = head;
+        Nodee22 current = tail;
         while (current != null) {
             current.data.tampilInformasi();
-            current = current.next;
+            current = current.prev;
         }
     }
+
+    public void printReverse() {
+    if (isEmpty()) {
+        System.out.println("Linked List masih kosong.");
+    } else {
+        Nodee22 tmp = tail;
+        while (tmp != null) {
+            tmp.data.tampilInformasi();
+            tmp = tmp.prev; 
+        }
+    }
+}
 }
