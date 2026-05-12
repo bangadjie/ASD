@@ -68,13 +68,15 @@ public class DoubleLinkedList22 {
             System.out.println("Linked List kosong.");
             return;
         }
+        Mhssiswa22 deketedata = head.data;
         if (head == tail) {
             head = tail = null;
         } else {
             head = head.next;
             head.prev = null;
         }
-        size--;
+        System.out.println("data berhasil di hapus ");
+        deketedata.tampilInformasi();
     }
 
     public void removeLast(){
@@ -82,13 +84,15 @@ public class DoubleLinkedList22 {
             System.out.println("Linked List kosong.");
             return;
         }
+        Mhssiswa22 deketedata = tail.data;
         if (head == tail) {
             head = tail = null;
         }else{
             tail = tail.prev;
             tail.next = null;
         }
-        size--;
+        System.out.println("data berhasil di hapus ");
+        deketedata.tampilInformasi();
     }
 
     public void print(){
