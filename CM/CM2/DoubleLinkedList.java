@@ -92,7 +92,7 @@ public class DoubleLinkedList {
                 tail2 = newNodePesanan;
             }
             System.out.println("\n------------------------------------------------");
-        System.out.println("Sistem: " + pembeliSekarang.namaPembeli + " ke kasir" + namaMakanan);
+        System.out.println(pembeliSekarang.namaPembeli + " ke kasir sa memesan " + namaMakanan);
         System.out.println("------------------------------------------------");
         }
         
@@ -147,4 +147,6 @@ public class DoubleLinkedList {
         System.out.println("TOTAL PENDAPATAN RESTORAN: Rp " + totalPendapatan);
         System.out.println("====================================");
         }
+        //serching pesanan
+        
 }
